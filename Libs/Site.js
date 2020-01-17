@@ -18,7 +18,7 @@ function Load_Page() {
     }
 
     //添加标题
-    $('title').html(PageTitle + " - LZAHS");
+    $('title').html(PageTitle + " - XYC");
     $('title').after("<link rel='icon' href='Imgs/Icon.png'/>");
 
     //写入菜单脚注

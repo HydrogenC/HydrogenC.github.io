@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="Libs/Site.css"/>
+    <link rel='stylesheet' href='Libs/Error.css'/>
+    <script src="Libs/jquery-3.3.1.js"></script>
+    <script src="Libs/Data.js"></script>
+    <script src="Libs/Site.js"></script>
+    <script>
+        window.onload = function () {
+            Load_Page();
+            var ecode = $.getUrlParam("ecode");
+            $('h1').append(ecode);
+            $('title').html(ecode + " - LZAHS");
+        }
+    </script>
+</head>
+<body>
+<div class="top-banner"></div>
+<div class="error">
+    <h1>Error </h1>
+    <h2 class="description"></h2>
+    <h2 class="info"></h2>
+    <a class="button" href="Index.html">Home Page</a>
+</div>
+</body>
+</html>

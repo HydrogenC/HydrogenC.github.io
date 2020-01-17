@@ -1,0 +1,176 @@
+body {
+    background-color: white;
+}
+
+.main {
+    padding-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+div.top-banner {
+    background-color: #303030;
+}
+
+p.description {
+    font-family: GothamMedium;
+    font-size: 20px;
+    margin-left: 10px;
+    max-width: 600px;
+}
+
+p.container {
+    margin-top: 10px;
+    font-family: GothamMedium;
+    font-size: 18px;
+}
+
+a.download {
+    display: inline-block;
+    font-family: GothamMedium;
+    min-width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #1786d5;
+    color: white;
+    padding-right: 18px;
+    padding-left: 18px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+a.download:hover {
+    background-color: white;
+    color: #1786d5;
+}
+
+a.grey-download {
+    background-color: darkgray;
+}
+
+a.grey-download:hover {
+    background-color: white;
+    color: darkgray;
+}
+
+p.see-more {
+    font-family: GothamMedium;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 10px;
+    color: #18a3fa;
+}
+
+p.see-more:hover {
+    color: black;
+}
+
+div.right-content, div.left-content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.left-content {
+    padding-left: 60px;
+}
+
+div.right-content {
+    margin-left: 60px;
+}
+
+img.big-logo {
+    width: 245px;
+    height: 245px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+p.grey {
+    font-family: GothamLight;
+    color: grey;
+    font-size: 16px;
+}
+
+h2.big-title {
+    color: black;
+    font-family: GothamMedium;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+div.roll {
+    height: 50px;
+    overflow: hidden;
+    max-width: 600px;
+    background: transparent;
+}
+
+a.roll-item {
+    display: inline-block;
+    height: 42px;
+    border-radius: 21px;
+    color: #18a3fa;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+}
+
+a.roll-item:hover {
+    color: black;
+}
+
+a.selected-roll-item {
+    color: black;
+    border: solid 1px lightgray;
+    display: inline-block;
+    height: 42px;
+    border-radius: 21px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+}
+
+div.download-area {
+    max-width: 400px;
+}
+
+h2.download-title {
+    font-family: GothamMedium;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.download-icon {
+    vertical-align: middle;
+    background-image: url(../Imgs/Icon.png);
+    background-size: 100%;
+    display: inline-block;
+    overflow: hidden;
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+}
+
+div.download-item {
+    margin: 4px 4px;
+}
+
+a.download-link {
+    vertical-align: middle;
+    font-size: 22px;
+    font-family: GothamLight;
+    text-decoration: none;
+    color: #161616;
+    margin-left: 4px;
+}
+
+a.download-link:hover {
+    font-weight: bolder;
+}

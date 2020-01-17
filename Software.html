@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="Libs/Site.css"/>
+    <link rel='stylesheet' href='Libs/Software.css'/>
+    <script src="Libs/jquery-3.3.1.js"></script>
+    <script src="Libs/Data.js"></script>
+    <script src="Libs/Site.js"></script>
+    <script src="Libs/Software.js"></script>
+    <script>
+        window.onload = function () {
+            GetUrlVar();
+            Load_Page();
+            Load_Items();
+        }
+    </script>
+</head>
+<body>
+<div class="top-banner"></div>
+<div class="main">
+    <div class="right-content">
+        <img class="big-logo"/>
+        <p class="grey name"></p>
+        <p class="grey ver"></p>
+        <p class="grey size"></p>
+    </div>
+    <div class="left-content">
+        <h2 class="big-title"></h2>
+        <div class="roll"></div>
+        <p class="see-more" onclick="SeeMore()">↓ More</p>
+        <p class="description"></p>
+        <div class="download-area">
+            <h2 class="download-title">Overview</h2>
+            <hr/>
+            <div class="download-links internal-links"></div>
+
+            <h2 class="download-title">Downloads</h2>
+            <hr/>
+            <div class="download-links external-links"></div>
+        </div>
+    </div>
+</div>
+<div class="btm-banner"></div>
+</body>
+</html>

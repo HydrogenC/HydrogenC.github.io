@@ -1,0 +1,57 @@
+body {
+    background-image: url(../Imgs/Bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #161616;
+}
+
+div.error {
+    margin-left: 60px;
+}
+
+h1 {
+    font-family: GothamBold;
+    color: white;
+    font-size: 66px;
+    margin-bottom: 10px;
+}
+
+h2.info::before {
+    white-space: pre-wrap;
+    content: "For further infomation or help, \A contact us: lianhezuzhi@126.com! ";
+}
+
+h2.description::before {
+    white-space: pre-wrap;
+    content: "This might be resource missing or server error. ";
+}
+
+h2.info, h2.description {
+    font-family: GothamLight;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+}
+
+a.button {
+    margin-top: 25px;
+    display: block;
+    border: 1px;
+    border-color: lightgray;
+    border-radius: 20px;
+    height: 80px;
+    width: 300px;
+    line-height: 80px;
+    color: white;
+    transition: all 0.2s ease;
+    background-color: #1786d5;
+    font-family: GothamMedium;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #509150;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Software Index</title>
+    <link rel="stylesheet" href="Libs/Site.css"/>
+    <link rel='stylesheet' href='Libs/MainPage.css'/>
+	<link rel='stylesheet' href='Libs/DSection.css'/>
+    <script src="Libs/jquery-3.3.1.js"></script>
+    <script src="Libs/Data.js"></script>
+    <script src="Libs/Site.js"></script>
+    <script src="Libs/MainPage.js"></script>
+	<script src="Libs/DSection.js"></script>
+    <script>
+        window.onload = function () {
+			Load_Page();
+            WriteRecommends();
+            Load_DSection();
+        }
+    </script>
+</head>
+<body class="body">
+<div class="top-banner" ondblclick="ChangePosition()"></div>
+<div class="main">
+    <div class="title">
+        <img class="default" src="Imgs/Icon.png" onclick="$('.show').click()"/>
+        <h1 class="default">
+            Software Index
+            <!--ExMatics&trade; LZ-AHS-->
+            <br />
+            By YC Xu
+            <!--Software Download-->
+        </h1>
+    </div>
+</div>
+<div class="btm-banner"></div>
+</body>
+</html>

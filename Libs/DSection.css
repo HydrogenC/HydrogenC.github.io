@@ -1,0 +1,169 @@
+﻿div.mask{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 1;
+}
+
+div.download-section{
+	font-family: GothamMedium;
+	background-color: white;
+	border-radius: 16px;
+	border: 1px grey solid;
+	width: 540px;
+	height: 500px;
+	z-index: 2;
+	position: fixed;
+}
+
+div.top-box{
+	background-color: lightgrey;
+	border-bottom: 1px grey solid;
+	padding-top: 28px;
+	border-top-right-radius: 16px;
+	border-top-left-radius: 16px;
+	height: 52px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 540px;
+}
+
+div.top-box *{
+	vertical-align: middle;
+}
+
+h2{
+	font-size: 25px;
+}
+
+h2.ds-title{
+	margin-left: 6px;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+h2.close{
+	margin-top: 0;
+	margin-bottom: 0;
+	position: absolute;
+	right: 20px;
+	display: inline-block;
+	transition: all 0.1s ease;
+}
+
+h2.close:hover{
+	color: grey;
+}
+
+div.icon{
+	margin-left: 20px;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 4px;
+	background-size: 100%;
+	background-image: url(../Imgs/Icon.png);
+}
+
+div.bottom-box{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 540px;
+	height: 72px;
+	display: inline-block;
+}
+
+a.btn{
+	background-color: white;
+	display: inline-block;
+	border-radius: 6px;
+	border: 2px #563d7c solid;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #563d7c;
+	font-size: 24px;
+	transition: all 0.2s ease;
+}
+
+a.btn:hover{
+	background-color: #563d7c;
+	color: white;
+}
+
+a.legacy-page{
+	position: absolute;
+	top: 0;
+	left: 30px;
+	text-decoration: none;
+}
+
+a.next-step{
+	position: absolute;
+	top: 0;
+	right: 30px;
+	text-decoration: none;
+}
+
+div.middle-box{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 95px;
+	overflow: auto;
+	max-height: 320px;
+}
+
+select.select{
+	width: 300px;
+	height: 28px;
+	font-size: 16px;
+	font-family: GothamMedium;
+	border-radius: 6px;
+}
+
+p.mini{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+p.small {
+    font-family: GothamLight;
+    font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+p.large {
+	font-size: 25px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.vsn,.size,.nme{
+	font-size: 18px;
+	color: black;
+}
+
+p.des{
+	font-size: 18px;
+	font-family: GothamMedium;
+	color: black;
+}
+
+a.text{
+	font-size: 20px;
+	font-family: GothamLight;
+	color: green;
+	display: block;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+a.text:hover{
+	font-weight: bolder;
+}

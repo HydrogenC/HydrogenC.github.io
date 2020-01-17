@@ -1,0 +1,65 @@
+body {
+    background-image: url(../Imgs/Bg-invert.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #e9e9e9;
+}
+
+div.main {
+    margin-left: 36px;
+}
+
+a.item {
+    display: block;
+    width: 400px;
+    height: 40px;
+    text-decoration: none;
+}
+
+span.spn {
+    font-family: GothamMedium;
+    font-size: 22px;
+    color: black;
+    position: relative;
+    bottom: 7px;
+    margin-left: 10px;
+}
+
+div.inner {
+    transition: all 0.2s ease;
+}
+
+div.inner:hover {
+    padding-left: 20px;
+}
+
+img.icon {
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+}
+
+div.section {
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+h2.category {
+    margin-top: 20px;
+    font-family: GothamMedium;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+h1.big-title {
+    font-size: 48px;
+    font-family: GothamBold;
+    margin-bottom: 0;
+}
+
+div.main {
+    padding-top: 0;
+}
